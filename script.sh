@@ -5,14 +5,14 @@
 
 case $1 in
 start)
-/bin/bash /opt/server/start.sh
+/bin/bash /opt/start.sh
 ;;
 stop)
-/bin/bash /opt/server/stop.sh
+/bin/bash /opt/stop.sh
 ;;
 restart)
-/bin/bash /opt/server/stop.sh
-/bin/bash /opt/server/start.sh
+/bin/bash /opt/stop.sh
+/bin/bash /opt/start.sh
 ;;
 esac
 exit 0

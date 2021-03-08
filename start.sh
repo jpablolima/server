@@ -2,4 +2,4 @@
 
 #! /bin/bash
 
-java -jar /opt/server/app.jar
+java -jar /opt/app.jar
