@@ -1,3 +1,2 @@
 # Shell Script
-*.png
-*.jpg 
+
