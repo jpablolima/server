@@ -14,7 +14,7 @@ do
 	convert $imagem_sem_extensao.jpg png/$imagem_sem_extensao.png
 done
 }
-converte_imagem
+converte_imagem 2>erros_conversao.txt
 if [ $? -eq 0 ]
 then 
 	echo "Conversão realizada com sucesso"

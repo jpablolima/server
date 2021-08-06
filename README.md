@@ -1,1 +1,3 @@
-# Shell Script 
+# Shell Script
+*.png
+*.jpg 
