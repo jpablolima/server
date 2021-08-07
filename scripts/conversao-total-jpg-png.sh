@@ -1,8 +1,8 @@
 #!/bin/bash
 
 converte_imagem(){
-#cd /home/pablo/Alura/server/scripts/imagens-livros
-cd /opt/server/scripts/imagens-livros
+cd /home/pablo/Alura/server/scripts/imagens-livros
+#cd /opt/server/scripts/imagens-livros
 if [ ! -d png ]
 then 
 	mkdir png
